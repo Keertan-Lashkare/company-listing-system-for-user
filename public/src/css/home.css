@@ -29,7 +29,8 @@ body{
   
 }
 .new-com{
-   
+    position: relative;
+    left:50px;
 }
 .home-btn{
     width: 440px;
@@ -47,15 +48,15 @@ body{
     position:relative;
     width:100%;
     top:52px;
-    right: 50px;
+  
     
     
 
 }
 .com-box-btn-delete{
     position: relative;
-    bottom: 8px;
-    left:360px;
+    bottom: 7px;
+    left:410px;
     background-color: rgba(255, 0, 0, 0.542);
     border-radius: 25px;
     width: 40px;
