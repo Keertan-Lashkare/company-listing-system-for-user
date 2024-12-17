@@ -1,5 +1,7 @@
 cd public 
 
+npm install
+
 npm start
 
 
