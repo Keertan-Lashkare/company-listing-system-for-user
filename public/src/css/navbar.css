@@ -1,0 +1,89 @@
+.navbar {
+
+    height: 62px;
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    border-bottom:5px solid rgba(76, 76, 76, 0.893);
+    z-index: 2;
+    
+
+
+}
+
+/* ******* name ******** */
+
+.navbar-name {
+    font-size: 34px;
+    /* font-family: cursive; */
+    margin-right: 5%;
+}
+
+/* ****** search ******* */
+.nav_search {
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+    margin-right: 45%;
+    background-color: rgb(215, 215, 215);
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+
+}
+
+.nav_search:hover {
+    border: 2px solid rgb(170, 170, 170);
+}
+
+.search_input {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+
+
+}
+
+.search_icon {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #4b4b4b;
+    cursor: pointer;
+}
+
+/* ***** icon ***** */
+.heart-icon {
+    width: 100px;
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    color: #dbdbdb;
+
+}
+
+.heart-icon i {
+    cursor: pointer;
+}
+
+/* ******* icon **** */
+.chat-icon {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    color: #dbdbdb;
+}
+
+.chat-icon i {
+    cursor: pointer;
+}

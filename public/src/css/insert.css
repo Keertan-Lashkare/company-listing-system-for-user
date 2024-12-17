@@ -1,0 +1,32 @@
+.insert-page-div{
+    background-color: rgba(128, 128, 128, 0.159);
+    border: 2px solid red;
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.insert-box{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    border:2px solid gray;
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+    background-color: rgba(128, 128, 128, 0.485);
+
+    
+}
+#input-insert{
+    margin-left: 50px;;
+    margin-right: 50px;
+    
+   
+}
+
+.insert-btn{
+    
+}

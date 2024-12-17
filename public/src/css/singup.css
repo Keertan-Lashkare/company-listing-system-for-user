@@ -1,0 +1,98 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.signup-outer-container{
+    background-image: url(../image/Mountains\ of\ Colorado.jfif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #555555;
+   background-position-y: -500px;
+   filter: blur(0.5px);
+   display:fixed;
+
+}
+.signup-inner-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+.signup-inner{
+    border:5px solid #333333;
+    border-radius:15px;
+    position: relative;
+    top:200px;
+    height: 300px;
+    width: 400px;
+    background-color:	#959494;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.user{
+    
+    background-color:#ffffff;
+    border-radius:20px;
+  /*  border:3px solid #e7e7e7;*/
+    align-self: center;
+    display:block;
+    height: 30px;
+    width: 250px;
+    position: relative;
+    top:50px;
+    
+}
+.userid{
+    background-color:#ffffff;
+    border-radius:20px;
+  /*  border:3px solid #e7e7e7;*/
+    align-self: center;
+    display:block;
+    height: 30px;
+    width: 250px;
+    position: relative;
+    top:57px;
+}
+.pass{
+    background-color:#ffffff;
+    border-radius: 20px;
+   /* border:3px solid #e7e7e7;*/
+    align-self: center;
+    display:block;
+    height: 30px;
+    width: 250px;
+    position: relative;
+    top:32px;
+
+}
+.email{
+    
+    background-color:#ffffff;
+    border-radius:20px;
+  /*  border:3px solid #e7e7e7;*/
+    align-self: center;
+    display:block;
+    height: 30px;
+    width: 250px;
+    position: relative;
+    top:110px;
+    
+}
+.btn{
+    background-color:#b4b2b2;
+    border-radius: 20px;
+    border:3px solid #646464;
+    align-self: center;
+    display:block;
+    height: 40px;
+    width: 200px;
+    position: relative;
+    top:130px;
+    box-shadow: 2px 5px 2px rgb(41, 41, 41);
+
+}
